@@ -1,0 +1,77 @@
+body {
+	animation: 0.8s;
+	background-color: mediumslateblue;
+	font-size: 30px;
+}
+.list {
+	position: fixed;
+	display: inline-flex;
+	list-style: none;
+	margin-left: 50px;
+	background-color: white;
+	opacity: 0.25;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	border-radius: 12px;
+	height: 15px;
+	width: 580px;
+	transition: 1s;
+}
+.list a {
+	font-size: 20px;
+	transition: 0.8s;
+	
+	padding: 0.4em;
+	color: darkgray;
+	text-decoration: none;
+	color-rendering: optimizeSpeed;
+
+
+}
+.list a:hover {
+
+	
+	color: limegreen;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-shadow: 0 0 10px;
+	font-size: 27px;
+	font-kerning: auto;
+	text-overflow: ellipsis;
+
+}
+.list:hover {
+	width: 750px;
+	opacity: 1;
+}
+::-webkit-scrollbar {
+	width: 0;
+}
+
+.login {
+	opacity: 0.2;
+	background: rgba(255,255,255,0.5);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	border: 1px solid rgba(255,255,255,0.25);
+	transition: 0.74s;
+	border-radius: 30px;
+	
+	width: 400px;
+	
+}
+.input {
+	background: blue;
+	transition: 0.5s;
+
+}
+.login:hover {
+	opacity: 1;
+
+}
+.input:focus {
+	background: gray;
+	font-size: 30px;
+
+}
+
